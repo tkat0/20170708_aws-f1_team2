@@ -1,11 +1,10 @@
-### AWS EC2 F1について、みんなでワイワイ調べる会
+#### AWS EC2 F1について、みんなでワイワイ調べる会
 #### サンプルデザインのテストベンチ&テストプログラムを開発するチーム
 #### 活動報告
 
 2017.07.08
 
-チーム2
-橘川さん, @JAPLSDさん, @kenzonagさん, @si1242さん, @_tkato_
+チーム2: 橘川さん, @JAPLSDさん, @kenzonagさん, @si1242さん, @\_tkato\_
 
 https://fpgax.connpass.com/event/52769/
 
@@ -111,9 +110,11 @@ HelloWorldレジスタを読んだ値に注目
 
 ### VivadoのGUIでRTLシミュレーションする
 
-VivadoのGUIを立ち上げるために、各Exampleの以下のファイルを修正した
+* デフォルトの `make` はバッチモード（CUI）
+* VivadoのGUIを立ち上げるために、各Exampleのファイルを修正した
+* シミュレーション終了後にプロジェクト(.xpr)を保存しておくと便利
 
-シミュレーション終了後にプロジェクト(.xpr)を保存しておくと便利
+---
 
 #### verif/scripts/Makefile.vivado
 
@@ -122,6 +123,8 @@ VivadoのGUIを立ち上げるために、各Exampleの以下のファイルを�
 -       cd $(SIM_DIR) && xsim -R -log test.log -tclbatch $(SCRIPTS_DIR)/waves.tcl tb
 +       cd $(SIM_DIR) && xsim -R -log test.log -g -tclbatch $(SCRIPTS_DIR)/waves.tcl tb
 ```
+
+---
 
 #### verif/scripts/waves.tcl
 
