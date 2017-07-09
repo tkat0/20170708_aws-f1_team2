@@ -1,6 +1,6 @@
-# AWS EC2 F1について、みんなでワイワイ調べる会
-## サンプルデザインのテストベンチ&テストプログラムを開発するチーム
-## 活動報告
+### AWS EC2 F1について、みんなでワイワイ調べる会
+#### サンプルデザインのテストベンチ&テストプログラムを開発するチーム
+#### 活動報告
 
 2017.07.08
 
@@ -17,13 +17,13 @@ https://fpgax.connpass.com/event/52769/
     * コードリーディング
     * F1インスタンスで動作確認し、波形を確認
 
----
-
-### テストベンチ
-
 RTLシミュレーションや、Exampleの動かし方などは以下を参照
 
 [RTL Simulation for Verilog/VHDL Custom Logic Design with AWS HDK]( https://github.com/aws/aws-fpga/blob/master/hdk/docs/RTL_Simulating_CL_Designs.md)
+
+---
+
+### テストベンチ
 
 <a href="./resources/Slide2.PNG">
 <img src="./resources/Slide2.PNG" style="width: 700px;"/>
@@ -60,7 +60,7 @@ make TEST=test_helloworld
 
 ---
 
-### cl_hello_world : test_hello_world.sv
+### test_hello_world.sv
 
 [cl_hello_world/verif/tests/test_hello_world.sv](https://github.com/aws/aws-fpga/blob/master/hdk/cl/examples/cl_hello_world/verif/tests/test_hello_world.sv)
 
@@ -75,7 +75,7 @@ https://github.com/si1242/f1-instance-share
 
 ---
 
-### cl_hello_world : test_hello_world.sv
+### test_hello_world.sv
 
 HelloWorldレジスタを読んだ値に注目
 
@@ -85,7 +85,7 @@ HelloWorldレジスタを読んだ値に注目
 
 ---
 
-### cl_dram_dma : test_int.sv
+### test_int.sv
 
 [cl_dram_dma/verif/tests/test_int.sv](https://github.com/aws/aws-fpga/blob/master/hdk/cl/examples/cl_dram_dma/verif/tests/test_int.sv)
 
@@ -97,7 +97,7 @@ HelloWorldレジスタを読んだ値に注目
 
 ---
 
-### cl_dram_dma : test_dram_dma.sv
+### test_dram_dma.sv
 
 [cl_dram_dma/verif/tests/test_dram_dma.sv](https://github.com/aws/aws-fpga/blob/master/hdk/cl/examples/cl_dram_dma/verif/tests/test_dram_dma.sv)
 

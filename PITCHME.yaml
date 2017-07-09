@@ -1,3 +1,4 @@
 transition : none
 vertical-center : false
 footnote : "2017.07.08 AWS EC2 F1について、みんなでワイワイ調べる会"
+theme-override: PITCHME.css
