@@ -114,8 +114,6 @@ HelloWorldレジスタを読んだ値に注目
 * VivadoのGUIを立ち上げるために、各Exampleのファイルを修正した
 * シミュレーション終了後にプロジェクト(.xpr)を保存しておくと便利
 
----
-
 #### verif/scripts/Makefile.vivado
 
 ```diff
@@ -123,8 +121,6 @@ HelloWorldレジスタを読んだ値に注目
 -       cd $(SIM_DIR) && xsim -R -log test.log -tclbatch $(SCRIPTS_DIR)/waves.tcl tb
 +       cd $(SIM_DIR) && xsim -R -log test.log -g -tclbatch $(SCRIPTS_DIR)/waves.tcl tb
 ```
-
----
 
 #### verif/scripts/waves.tcl
 

@@ -1,6 +1,9 @@
-.reveal {
+.reveal .slide {
     text-align: left;
-    font-size: 30px;
+}
+
+.reveal {
+    font-size: 20px;
 }
 
 .reveal section img {
