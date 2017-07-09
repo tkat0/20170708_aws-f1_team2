@@ -25,8 +25,8 @@ RTLシミュレーションや、Exampleの動かし方などは以下を参照
 
 [RTL Simulation for Verilog/VHDL Custom Logic Design with AWS HDK]( https://github.com/aws/aws-fpga/blob/master/hdk/docs/RTL_Simulating_CL_Designs.md)
 
-<a href="./resources/Slide2.png">
-<img src="./resources/Slide2.png" style="width: 700px;"/>
+<a href="./resources/Slide2.PNG">
+<img src="./resources/Slide2.PNG" style="width: 700px;"/>
 </a>
 
 引用：https://github.com/aws/aws-fpga/tree/master/hdk/docs/ppts/simulation
@@ -160,8 +160,8 @@ RTLシミュレーション時は、CL（カスタムロジック）のメモリ
 
 [Accessing Host Memory During Simulation]( https://github.com/aws/aws-fpga/blob/master/hdk/docs/RTL_Simulating_CL_Designs.md#accessing-host-memory-during-simulation)
 
-<a href="./resources/Slide3.png">
-<img src="./resources/Slide3.png" style="width: 400px;"/>
+<a href="./resources/Slide3.PNG">
+<img src="./resources/Slide3.PNG" style="width: 400px;"/>
 </a>
 
 引用： https://github.com/aws/aws-fpga/blob/master/hdk/docs/RTL_Simulating_CL_Designs.md#accessing-host-memory-during-simulation
