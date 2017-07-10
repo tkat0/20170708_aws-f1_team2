@@ -50,7 +50,7 @@ https://github.com/aws/aws-fpga/tree/master/hdk/cl/examples
 
 ```sh
 cd aws-fpga/hdk/cl/examples/cl_hello_world/verif/scripts
-make TEST=test_helloworld
+make TEST=test_hello_world
 ```
 
 * makeを実行すると、合成、シミュレーションが行われる（CUI）
